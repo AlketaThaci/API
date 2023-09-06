@@ -31,6 +31,7 @@ Route::delete('category/destroy/{id}',[CategoryController::class,'destroy']);
 Route::put('category/update/{id}',[CategoryController::class,'update']);
 
 
+
 Route::get('movies',[MovieController::class,'index']);
 
 Route::post('movie/store',[MovieController::class,'store']);
